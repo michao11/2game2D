@@ -12,6 +12,6 @@ B1.Display()
 U1 = User.User('X', "player1")
 
 while True:
-    print(U1.GetPosX)
-    print(U1.GetPosY)
+    print(U1.GetPosX())
+    print(U1.GetPosY())
     U1.Move()
