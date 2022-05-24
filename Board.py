@@ -3,11 +3,8 @@ class Board:
         self.__board = [
                 [' ',' ',' ',' '],
                 [' ',' ',' ',' '],
-                [' ',' ','x',' '],
+                [' ',' ',' ',' '],
                 [' ',' ',' ',' ']]
-
-    def Reset(self):
-        pass
     
     def Display(self):
         for x in self.__board:
@@ -17,5 +14,12 @@ class Board:
                 print("]", end="")
             print()
 
+    def Reset(self):
+        self.__board = [
+                [' ',' ',' ',' '],
+                [' ',' ',' ',' '],
+                [' ',' ',' ',' '],
+                [' ',' ',' ',' ']]
+
     def SetPosition(self, chr, x, y):
-        pass
+        self.__board[x][y] = chr

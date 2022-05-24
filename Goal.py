@@ -6,4 +6,5 @@ class Goal(Player.Player):
         super().__init__(character)
     
     def Move(self):
-        pass
+        self._pos_x = random.randint(0, 3)
+        self._pos_y = random.randint(0, 3)
