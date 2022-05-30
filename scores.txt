@@ -1,1 +1,1 @@
-player1 10 player2 8 player3 5 player4 13
+player1 9 player2 7 player3 5 player4 1 player10 13 
